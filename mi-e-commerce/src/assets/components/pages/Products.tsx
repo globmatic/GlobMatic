@@ -7,6 +7,7 @@ const Products: React.FC = () => {
       <header className="products-header">
         <h2>Nuestro Catálogo de Productos</h2>
         <p>Descubre nuestra selección de productos de alta calidad</p>
+        
       </header>
       <main>
         <ProductList />

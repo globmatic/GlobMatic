@@ -12,6 +12,19 @@ const mockProducts: Product[] = [
     rating: 4.5,
     stock: 15
   },
+
+  {
+    id: 1,
+    name: "Camaras Seguridad",
+    description: "Camaras de seguridad de alta calidad",
+    price: 35,
+    image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop",
+    category: "Tecnología",
+    rating: 4.5,
+    stock: 15
+},
+
+
   {
     id: 2,
     name: "Smartphone",
