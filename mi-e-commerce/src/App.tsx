@@ -9,7 +9,8 @@ function App() {
         <header className="app-header">
           <h1>GlobMatic  <h4>E-commerce</h4></h1>
 
-          <p>Tu tienda virtual de confianza</p>
+          <p>ONLINE STORE</p>
+          
           <p>Descubre nuestra selección de productos de alta calidad</p>
 
 
