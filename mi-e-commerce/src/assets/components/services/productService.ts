@@ -25,45 +25,18 @@ const mockProducts: Product[] = [
 },
 
 
-  {
-    id: 2,
-    name: "Smartphone",
-    description: "Teléfono inteligente de última generación",
-    price: 800,
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&h=300&fit=crop",
-    category: "Tecnología",
-    rating: 4.2,
-    stock: 30
-  },
 
   {
-    id: 2,
-    name: "Smartphone",
-    description: "Telafone inteligente de ultima generacion",
-    price: 800,
-    image: ".,
-    category: "Tecnología",
-    rating: 4.2,
-    stock: 30
-  }
-
-
-
-
-
-
-
-
-  {
-    id: 3,
-    name: "Auriculares Bluetooth",
-    description: "Auriculares inalámbricos con cancelación de ruido",
-    price: 150,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
-    category: "Audio",
-    rating: 4.7,
-    stock: 25
-  },
+  id: 2,
+  name: "Camara IP para exteriores Solar Panoramicas",
+  description: `Doble lente de alta calidad Resolución 6 y 8 megapixeles Compatible con Android y iOS, Camara IP para exteriores Solar Panoramicas con resolución de 6 y 8 megapixeles, con un rango de visión de 120° y 180° para capturar la escena completa de cualquier lugar.
+${"\n"}12 meses de garantía Doble lente de alta calidad.`,
+  price: 75,
+  image: "../assets/img/DOMOTIC593/camaras/solar.jpg",
+  category: "Tecnología",
+  rating: 4.2,
+  stock: 30
+},
   {
     id: 4,
     name: "Smartwatch",
