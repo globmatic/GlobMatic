@@ -5,7 +5,9 @@ import './ProductList.css';
 
 // Definir tipo para las props aunque esté vacío
 interface ProductListProps {
+  
   // Puedes añadir props aquí si es necesario
+
 }
 
 const ProductList: React.FC<ProductListProps> = (props: ProductListProps) => {
