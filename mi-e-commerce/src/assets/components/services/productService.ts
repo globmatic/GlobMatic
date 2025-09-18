@@ -1,3 +1,4 @@
+
 import type { Product } from '../types/product';
 
 // Datos de ejemplo - en una app real, estos vendrían de una API
@@ -32,7 +33,7 @@ const mockProducts: Product[] = [
   description: `Doble lente de alta calidad Resolución 6 y 8 megapixeles Compatible con Android y iOS, Camara IP para exteriores Solar Panoramicas con resolución de 6 y 8 megapixeles, con un rango de visión de 120° y 180° para capturar la escena completa de cualquier lugar.
 ${"\n"}12 meses de garantía Doble lente de alta calidad.`,
   price: 75,
-  image: "../assets/img/DOMOTIC593/camaras/solar.jpg",
+  image: "/img/DOMOTIC593/camaras/solar.jpg",
   category: "Tecnología",
   rating: 4.2,
   stock: 30
