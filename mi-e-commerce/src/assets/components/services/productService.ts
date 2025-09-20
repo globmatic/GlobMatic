@@ -3,7 +3,7 @@ import type { Product } from '../types/product';
 // Datos de ejemplo - en una app real, estos vendrían de una API
 const mockProducts: Product[] = [
   {
-    id: 1,
+    id: 0,
     name: "Laptop Gaming",
     description: "Potente laptop para gaming con tarjeta gráfica dedicada",
     price: 1200,
@@ -41,7 +41,7 @@ const mockProducts: Product[] = [
     name: "Smartphone",
     description: "Telafone inteligente de ultima generacion",
     price: 800,
-    image: ".,
+    image: "../assets/images/smartphone.jpg",
     category: "Tecnología",
     rating: 4.2,
     stock: 30
