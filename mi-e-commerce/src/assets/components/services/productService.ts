@@ -7,7 +7,7 @@ const mockProducts: Product[] = [
     name: "Laptop Gaming",
     description: "Potente laptop para gaming con tarjeta gráfica dedicada",
     price: 1200,
-    image: "/img/DOMOTIC593/logo1024.jpeg",
+    image: "/public/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
@@ -15,10 +15,10 @@ const mockProducts: Product[] = [
 
   {
     id: 1,
-    name: "Cámaras Seguridad",
+    name: "Cámaras Espia",
     description: "Cámaras de seguridad de alta calidad",
     price: 35,
-    image: "/img/DOMOTIC593/camaras/IMG_20250424_120523_384.jpg",
+    image: "/public/img/DOMOTIC593/camaras/camara-espia.jpg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
