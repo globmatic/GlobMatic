@@ -7,7 +7,7 @@ const mockProducts: Product[] = [
     name: "Laptop Gaming",
     description: "Potente laptop para gaming con tarjeta gráfica dedicada",
     price: 1200,
-    image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
@@ -18,7 +18,7 @@ const mockProducts: Product[] = [
     name: "Cámaras Seguridad",
     description: "Cámaras de seguridad de alta calidad",
     price: 35,
-    image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/camaras/IMG_20250424_120523_384.jpg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
@@ -30,36 +30,29 @@ const mockProducts: Product[] = [
     name: "Smartphone",
     description: "Teléfono inteligente de última generación",
     price: 800,
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
     rating: 4.2,
     stock: 30
   },
 
   {
-    id: 2,
-    name: "Smartphone",
-    description: "Telafone inteligente de ultima generacion",
-    price: 800,
-    image: "../assets/images/smartphone.jpg",
+    id: 7,
+    name: "Smartphone Pro",
+    description: "Teléfono inteligente de última generación con cámara avanzada",
+    price: 900,
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
-    rating: 4.2,
-    stock: 30
-  }
-
-
-
-
-
-
-
+    rating: 4.6,
+    stock: 20
+  },
 
   {
     id: 3,
     name: "Auriculares Bluetooth",
     description: "Auriculares inalámbricos con cancelación de ruido",
     price: 150,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Audio",
     rating: 4.7,
     stock: 25
@@ -69,7 +62,7 @@ const mockProducts: Product[] = [
     name: "Smartwatch",
     description: "Reloj inteligente con monitor de actividad física",
     price: 250,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
     rating: 4.3,
     stock: 18
@@ -79,7 +72,7 @@ const mockProducts: Product[] = [
     name: "Tablet",
     description: "Tablet de 10 pulgadas con alta resolución",
     price: 450,
-    image: "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Tecnología",
     rating: 4.0,
     stock: 12
@@ -89,7 +82,7 @@ const mockProducts: Product[] = [
     name: "Altavoz Inteligente",
     description: "Altavoz con asistente virtual integrado",
     price: 120,
-    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop",
+    image: "/img/DOMOTIC593/logo1024.jpeg",
     category: "Audio",
     rating: 4.4,
     stock: 22
