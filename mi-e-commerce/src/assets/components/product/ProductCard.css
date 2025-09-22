@@ -14,6 +14,7 @@
 .product-image {
   height: 200px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .product-image img {
@@ -43,6 +44,7 @@
   font-size: 0.95rem;
   margin: 0 0 15px 0;
   display: -webkit-box;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;

@@ -4,10 +4,23 @@
   padding: 0;
 }
 
+html, body {
+  min-height: 100%;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7f9;
-  color: #333;
+  /* Dark tech base */
+  background-color: #0b1220;
+  /* Tech glows: indigo, teal/emerald, cyan layered softly */
+  background-image:
+    radial-gradient(60% 40% at 20% 10%, rgba(99, 102, 241, 0.35) 0%, rgba(99, 102, 241, 0) 60%),
+    radial-gradient(50% 30% at 80% 20%, rgba(16, 185, 129, 0.28) 0%, rgba(16, 185, 129, 0) 60%),
+    radial-gradient(80% 60% at 50% 80%, rgba(14, 165, 233, 0.25) 0%, rgba(14, 165, 233, 0) 65%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e5e7eb; /* readable on dark */
   line-height: 1.6;
 }
 

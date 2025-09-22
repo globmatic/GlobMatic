@@ -4,10 +4,10 @@ import type { Product } from '../types/product';
 const mockProducts: Product[] = [
   {
     id: 0,
-    name: "Laptop Gaming",
-    description: "Potente laptop para gaming con tarjeta gráfica dedicada",
+    name: "Cámaras de Seguridad",
+    description: "Cámaras de seguridad de alta calidad",
     price: 1200,
-    image: "/public/img/DOMOTIC593/logo1024.jpeg",
+    image: "/img/DOMOTIC593/camaras/camara_bifocal2.jpg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
@@ -15,10 +15,10 @@ const mockProducts: Product[] = [
 
   {
     id: 1,
-    name: "Cámaras Espia",
+    name: "Cámaras Espía",
     description: "Cámaras de seguridad de alta calidad",
     price: 35,
-    image: "/public/img/DOMOTIC593/camaras/camara-espia.jpg",
+    image: "/img/DOMOTIC593/camaras/camara-espia.jpg",
     category: "Tecnología",
     rating: 4.5,
     stock: 15
@@ -27,10 +27,10 @@ const mockProducts: Product[] = [
 
   {
     id: 2,
-    name: "Smartphone",
-    description: "Teléfono inteligente de última generación",
+    name: "Cámaras de Seguridad IP",
+    description: "Cámaras de seguridad de última generación",
     price: 800,
-    image: "/img/DOMOTIC593/logo1024.jpeg",
+    image: "/img/DOMOTIC593/camaras/camara360.jpg",
     category: "Tecnología",
     rating: 4.2,
     stock: 30
@@ -38,10 +38,10 @@ const mockProducts: Product[] = [
 
   {
     id: 7,
-    name: "Smartphone Pro",
+    name: "Cámaras de Seguridad IP",
     description: "Teléfono inteligente de última generación con cámara avanzada",
     price: 900,
-    image: "/img/DOMOTIC593/logo1024.jpeg",
+    image: "/img/DOMOTIC593/camaras/juego_d_6.jpg",
     category: "Tecnología",
     rating: 4.6,
     stock: 20

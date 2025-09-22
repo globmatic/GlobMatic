@@ -4,12 +4,13 @@ import './ProductCard.css';
 
 interface ProductCardProps {
   product: Product;
+  onSelectImage?: (imageUrl: string, product: Product) => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ product, onSelectImage }) => {
   return (
     <div className="product-card">
-      <div className="product-image">
+      <div className="product-image" onClick={() => onSelectImage?.(product.image, product)}>
         <img src={product.image} alt={product.name} />
       </div>
       <div className="product-info">

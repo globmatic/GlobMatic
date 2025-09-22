@@ -5,8 +5,8 @@
 }
 
 .app-header {
-background: linear-gradient(135deg, hsl(278, 53%, 31%), hsl(180, 50%, 25%));
-  color: #f04f04;
+  background: linear-gradient(135deg, #2563eb, #ef4444, #8b5cf6);
+  color: #1cd469;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -22,12 +22,12 @@ background: linear-gradient(135deg, hsl(278, 53%, 31%), hsl(180, 50%, 25%));
   margin: 0;
   font-size: 1.2rem;
   font-weight: 700;
-  color: rgba(160, 185, 14, 0.877);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .app-header p {
   margin-top: 0.5rem;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .container {
@@ -44,18 +44,18 @@ background: linear-gradient(135deg, hsl(278, 53%, 31%), hsl(180, 50%, 25%));
 
 .products-header h2 {
   font-size: 2rem;
-  color: #2c5530;
+  color: #1f2937;
   margin-bottom: 0.5rem;
 }
 
 .products-header p {
-  color: #666;
+  color: #6b7280;
   font-size: 1.1rem;
 }
 
 .app-footer {
-  background: linear-gradient(135deg, hsl(0, 70%, 50%), hsl(120, 70%, 50%));
-  color: rgb(33, 74, 90);
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #5b5b5c;
   text-align: center;
   padding: 1.5rem;
   margin-top: 3rem;
